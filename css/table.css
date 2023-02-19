@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.table {
+    border-collapse: collapse;
+    overflow-x: auto;
+    background-color: #e6ebea;
+    margin: 10px auto;
+    color: #2e2e2d;
+}
+
+.tabel__caption {
+    background-color: #46403b;
+    color: #e3e1e1;
+}
+
+.table__cell {
+    border: 0.5px solid #201f1f;
+    padding: 10px 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table__cell--rowHeader {
+    background-color: #b8b6b6;
+}
+
+.table__cell--columnHeader {
+    background-color: #9e9e9d;
+}
+
+.table__row:hover {
+    background-color: #dcdada;
+}

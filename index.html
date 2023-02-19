@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiktoria Nizielska - wizytówka</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/body.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <header>
+        <h1 class="header__title">Wiktoria Nizielska</h1>
+    </header>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item"><a class="navigation__link" href="#o-mnie">O mnie</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#muzyka">Muzyka</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#czas-wolny">Czas wolny</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="o-mnie" class="section">
+            <h2 class="section__heading">O mnie</h2>
+            <div class="section__container">
+                <img class="section__image" width="200" height="200" src="https://i.postimg.cc/9fPy7Pw0/mojezdjecie.jpg"
+                    alt="Zdjęcie sprzed 6 lat">
+                <p class="section__paragraph--center">Jestem Wiktoria, mam 24 lata, choć na żywo wyglądam na jakieś
+                    <em>15</em>.
+                    Z
+                    wykształcenia
+                    jestem
+                    kosmetologiem, aktualnie pracuję na magazynie produkującym kształtki do katalizatorów z waty
+                    szklanej, a
+                    zamierzam zostać frontend deweloperem. <i>(Tak, tak wszystko z innej bajki.)</i>
+                </p>
+            </div>
+        </section>
+
+        <section id="muzyka" class="section">
+            <h2 class="section__heading">Muzyka</h2>
+            <p class="section__paragraph">Muzyka jest nieodłączną częścią mojego życia. Lubie słuchać różnych gatnków, w
+                zależności od tego na co
+                akurat mam ochotę.Najbardziej lubie rock, pop, indie folk i muzykę alternatywną.</p>
+
+            <table class="table">
+                <caption class="tabel__caption">Moje ulubione piosenki</caption>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--columnHeader" scope="col">Tytuł</th>
+                    <th class="table__cell table__cell--columnHeader" scope="col">Wykonawca</th>
+                    <th class="table__cell table__cell--columnHeader" scope="col">Album</th>
+                    <th class="table__cell table__cell--columnHeader" scope="col">Rok</th>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--rowHeader" scope="row">Warrior</th>
+                    <td class="table__cell">Aurora</td>
+                    <td class="table__cell">All my demons greeting me as a friend</td>
+                    <td class="table__cell">2016</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--rowHeader" scope="row">Numb</th>
+                    <td class="table__cell">Linkin Park</td>
+                    <td class="table__cell">Meteora</td>
+                    <td class="table__cell">2003</td>
+                </tr>
+
+                <tr class="table__row">
+                    <th class="table__cell table__cell--rowHeader" scope="row">Where is my love</th>
+                    <td class="table__cell" colspan="2">SYML</td>
+                    <td class="table__cell">2019</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--rowHeader" scope="row">Avalanche</th>
+                    <td class="table__cell" rowspan="2">Bring me the horizon</td>
+                    <td class="table__cell">That's the spirit</td>
+                    <td class="table__cell" rowspan="2">2015</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--rowHeader" scope="row">Drown</th>
+                    <td class="table__cell">Live at Wembley</td>
+                </tr>
+            </table>
+        </section>
+
+
+        <section id="czas-wolny" class="section">
+            <h2 class="section__heading">Czas wolny</h2>
+            <p class="section__paragraph">Jednym z moich ulubionych zajęć są spacery. Uwielbiam chodzić po parkach i
+                lasach.
+                Jest to bardzo
+                relaksujące i pozwala pozbierać myśli. Chwilowo w moim życiu czas wolny praktycznie nie istnieje, ale
+                też po to robię ten kurs żeby ten stan zmienić.</p>
+        </section>
+
+        <p>
+            <button class="button">Zmień kolor tła na <span class="js-button"> ciemniejszy</span></button>
+            <!-- wyskakiwał błąd kiedy chciałam dać => js-button__themeName lub js-button -->
+        </p>
+    </main>
+
+    <footer class="footer">© Copyright 2022 by Wiktria Nizielska</footer>
+
+
+</body>
+
+</html>

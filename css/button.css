@@ -1,0 +1,17 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.darker {
+    background-color: #a19c96;
+}

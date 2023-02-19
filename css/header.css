@@ -1,0 +1,15 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.header__title {
+    color: #2e2e2d;
+    background-color: #dcdcda;
+    padding: 10px;
+    font-weight: normal;
+    margin: 10px;
+}

@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.section__heading {
+    color: #46403b;
+    text-align: left;
+    background-color: #dcdcda;
+    padding: 10px;
+    box-shadow: 5px 5px 11px -4px #3F3E3C;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.section__container {
+    display: flex;
+    margin: 10px;
+}
+
+.section__image {
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.section__paragraph--center {
+    padding: 15px;
+}
+
+.section__paragraph {
+    padding-bottom: 13px;
+    margin: 10px;
+    text-align: left;
+}

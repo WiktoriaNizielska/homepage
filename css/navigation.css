@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.navigation__list {
+    list-style-type: none;
+    display: flex;
+    background-color: #46403b;
+    padding-left: 0px;
+    box-shadow: 5px 5px 11px -4px #3F3E3C;
+    margin: 10px;
+}
+
+.navigation__item {
+    padding: 20px;
+    margin: auto;
+    line-height: 1;
+}
+
+.navigation__link {
+    text-decoration: none;
+    font-size: 20px;
+    color: #eae2e2;
+}
+
+.navigation__link:focus {
+    outline: 2px solid #201f1f
+}
+
+.navigation__link:hover {
+    color: #dc3406;
+}
+
+.navigation__link:active {
+    color: #531302;
+}
