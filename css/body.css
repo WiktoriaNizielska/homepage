@@ -14,3 +14,7 @@ html {
     margin: auto;
     text-align: center;
 }
+
+.body--darker {
+    background-color: #a19c96;
+}
